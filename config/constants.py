@@ -1,5 +1,6 @@
 DEFAULT_COMPONENT = "web"
 DEFAULT_EXECUTION = "local"
 DEFAULT_BROWSER = "chrome"
-DEFAULT_SCREEN_SIZE = "full"
+DEFAULT_SCREEN_SIZE = "desktop"
 DEFAULT_PLATFORM = "android"
+BROWSER_RESOLUTIONS = "config/browser_resolutions.json"

@@ -1,0 +1,23 @@
+{
+  "desktop": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+  },
+  "tablet": {
+    "resolution": [
+      800,
+      600
+    ],
+    "user_agent": "Mozilla/5.0 (iPad; CPU OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/71.0.3578.77 Mobile/15E148 Safari/605.12"
+  },
+  "mobile": {
+    "resolution": [
+      393,
+      851
+    ],
+    "user_agent": "Mozilla/5.0 (Linux; Android 11; Pixel 5 Build/RD1A.201105.003.C1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.66 Mobile Safari/537.36"
+  }
+}
