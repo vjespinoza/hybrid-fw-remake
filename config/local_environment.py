@@ -1,9 +1,23 @@
 import os
+from config.constants import (DEFAULT_COMPONENT, DEFAULT_EXECUTION, DEFAULT_BROWSER,
+                              DEFAULT_SCREEN_SIZE, DEFAULT_PLATFORM)
 
 
-def get_no_var():
-    return os.environ.get("NO_VAR") or "DEFAULT_VALUE_1"
+def get_component():
+    return os.environ.get("COMPONENT") or DEFAULT_COMPONENT
 
 
-def get_var_one():
-    return os.environ.get("VAR_ONE") or "DEFULT_VALUE_2"
+def get_execution():
+    return os.environ.get("EXECUTION") or DEFAULT_EXECUTION
+
+
+def get_browser():
+    return os.environ.get("BROWSER") or DEFAULT_BROWSER
+
+
+def get_screen_size():
+    return os.environ.get("SCREEN_SIZE") or DEFAULT_SCREEN_SIZE
+
+
+def get_platform():
+    return os.environ.get("PLATFORM") or DEFAULT_PLATFORM
