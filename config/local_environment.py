@@ -21,3 +21,11 @@ def get_screen_size():
 
 def get_platform():
     return os.environ.get("PLATFORM") or DEFAULT_PLATFORM
+
+
+def get_sl_username():
+    return os.environ.get("SL_USERNAME")
+
+
+def get_sl_accesskeye():
+    return os.environ.get("SL_ACCESSKEY")
